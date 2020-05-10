@@ -224,8 +224,8 @@ if __name__ == '__main__':
         jobs.append(p)
         p.start()
 
-    for minik in jobs:
-        minik.join()
+    for job in jobs:
+        job.join()
 
 
 
